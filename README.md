@@ -19,7 +19,7 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 | :lock: Mayo semana 6 | *Marita Campos* |
 | :lock: Mayo semana 7 | *Sofía Zelay* |
 | :lock: Mayo semana 8 | *Araceli Pintos* |
-| :lock: Mayo-Junio semana 9 | *Ciro Gonzalez* |
+| :lock: Mayo-Junio semana 9 | *Ciro Martinez* |
 
 
 
