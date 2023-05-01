@@ -1,7 +1,3 @@
-!![Tribu Técnica](https://drive.google.com/file/d/1JPSu1SYLdRCk8L0oMjjU5th3Rt4mgLbE/view?usp=sharing)
-
-
-
 
 
 
@@ -18,16 +14,14 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 | :lock: Abril semana 1 | *Carolina Mamani* |
 | :lock: Abril semana 2 | *Augusto Casado* |
 | :lock: Abril semana 3 | *David Esteche* |
-| :lock: Abril semana 4 | *J* |
-| :lock: Mayo semana 5 | *L* |
-| :lock: Mayo semana 6 | *L* |
-| :lock: Mayo semana 7 | *L* |
-| :lock: Mayo semana 8 | *L* |
-| :lock: Mayo-Junio semana 9 | *L* |
+| :lock: Abril semana 4 | *Johana Martínez* |
+| :lock: Mayo semana 5 | *Marcelo Boujon* |
+| :lock: Mayo semana 6 | *Marita Campos* |
+| :lock: Mayo semana 7 | *Sofía Zelay* |
+| :lock: Mayo semana 8 | *Araceli Pintos* |
+| :lock: Mayo-Junio semana 9 | *Ciro Gonzalez* |
 
 
-
-![Código en acción](https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif)
 
 
 
