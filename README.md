@@ -1,4 +1,4 @@
-![The JavaDavaDev's]https://imgur.com/qaPOw7t
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/uKHKLHa" data-context="false" ><a href="//imgur.com/a/uKHKLHa"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 # JavaDabaDevs-TercerSemestre
