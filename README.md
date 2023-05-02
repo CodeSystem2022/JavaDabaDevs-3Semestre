@@ -1,4 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/uKHKLHa" data-context="false" ><a href="//imgur.com/a/uKHKLHa"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Ejemplo de imagen en GitHub](https://i.imgur.com/qaPOw7t.png)
 
 
 # JavaDabaDevs-TercerSemestre
