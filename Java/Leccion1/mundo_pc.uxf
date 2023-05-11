@@ -1,0 +1,68 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>20</x><y>40</y><w>860</w><h>710</h></coordinates><panel_attributes>mundo_pc
+--
+bg=#aefff6</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>80</y><w>330</w><h>200</h></coordinates><panel_attributes>&lt;&lt;Computadora&gt;&gt;
+--
++contador_computadora: int &lt;&lt;static&gt;&gt;
+-idComputadora: int
+-nombre: String
+-monitor: Monitor
+-teclado: Teclado
+-raton: Raton
+--
++__str__()
++(agregar los metodos get/set de cada atributo)
+--
+Responsibilidades
+--Crear objetos de tipo Compiutadora</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>80</y><w>330</w><h>170</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
++contadorOrdenes: int &lt;&lt;static&gt;&gt;
+-idOrden: int
+-computadoras: List &lt;computadora.
+--
++agregarComputadora(computadora)
++__str__()
++(Agregar los metodos get/set de cada atributo)
+--
+Responsibilidades
+Almacenar en una lista los objetos de tipo computadora</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>160</y><w>180</w><h>40</h></coordinates><panel_attributes>&lt;&lt;agregar&gt;&gt;
+lt=&lt;&lt;&lt;&lt;.</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>300</y><w>330</w><h>140</h></coordinates><panel_attributes>&lt;&lt;DispositivoEntrada&gt;&gt;
+--
+#tipoEntrada: String
+# marca: String
+--
++__str__()
++(Agregar los metodos get/set para los atributos)
+--
+Responsibilidades
+--Crear objetos de tipo DispositivoEntrada</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>510</y><w>280</w><h>180</h></coordinates><panel_attributes>&lt;&lt;Monitor&gt;&gt;
+--
++contadorMonitores: int &lt;&lt;static&gt;&gt;
+-idMonitor: int
+-marca: String
+-tamanio: String
+--
++__str__()
++(agregar los metodos get/set de cada atributo)
+--
+Responsibilidades
+--Crear objetos de tipo Monitor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>540</y><w>200</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Raton&gt;&gt;
+--
++contadorRatones: int &lt;&lt;static&gt;&gt;
+-idRaton: int
+--
++__str__()
+--
+Responsibilidades
+--Crear objetos de tipo Raton</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>540</y><w>200</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Teclado&gt;&gt;
+--
++contadorTeclados: int &lt;&lt;static&gt;&gt;
+-idTeclado: int
+--
++__str__()
+--
+Responsibilidades
+--Crear objetos de tipo Teclado</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>270</y><w>30</w><h>260</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>380</y><w>570</w><h>360</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>550;290;550;340;180;340;180;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>660</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>480</y><w>280</w><h>80</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>260;60;260;20;10;20;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>430</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
