@@ -3,9 +3,6 @@ package test;
 import Enumeraciones.Continentes;
 import Enumeraciones.Dias;
 
-
-//@author JOHAN
-
 public class testEnumeracion {
 
     public static void main(String[] args) {
@@ -30,36 +27,6 @@ public class testEnumeracion {
         System.out.println("Continente No. 5: " +Continentes.OCEANIA);
         System.out.println("No. de paises en el quinto continente: " +Continentes.OCEANIA.getPaises());
         System.out.println("No. de habitantes en el quinto continente: " +Continentes.OCEANIA.getHabitantes());
-    }
-    
-    private static void indicarDiaSemana (Dias dias){
-        switch(dias){
-            case LUNES:
-                System.out.println("Primer dia de la semana");
-                break;
-            case MARTES:
-                System.out.println("Segundo dia de la semana");
-                break;
-            case MIERCOLES:
-                System.out.println("Tercer dia de la semana");
-                break;
-            case JUEVES:
-                System.out.println("Cuarto dia de la semana");
-                break;
-            case VIERNES:
-                System.out.println("Quinto dia de la semana");
-                break;
-            case SABADO:
-                System.out.println("Sexto dia de la semana");
-                break;
-            case DOMINGO:
-                System.out.println("Septimo dia de la semana");
-                break;   
-            default:
-                System.out.println("El dato ingresado no es dia de la semana");   
-        }
-    }
-    
-    
+    }   
 }
 
