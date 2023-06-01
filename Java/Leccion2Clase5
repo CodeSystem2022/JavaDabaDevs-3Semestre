@@ -1,0 +1,25 @@
+package enumeraciones;
+
+public enum Continentes {
+   AFRICA(53, "1.2 billones"),
+   ASIA(46, "1.1 billones"),
+   AMERICA(44, "9.2 billones"), 
+   EUROPA(34, "1.2 billones"),
+   OCEANIA(14, "1.0 billones");
+   
+   private final int paises;
+   private string habitantes;
+   
+   Continentes(int paises){
+       this.paises = paises;
+       this.habitantes = habitantes;
+   }
+   
+   //Método Get
+public int getPaises (){
+     return this.paises;      
+}
+
+public String getHabitantes (){
+    return this.habitantes;
+}
