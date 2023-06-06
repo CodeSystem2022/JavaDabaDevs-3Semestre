@@ -1,33 +1,30 @@
+package enumeraciones;
 
-package Enumeraciones;
-
-
-// @author JOHAN
-
+// Enums complejos 
 public enum Continentes {
-
-    AFRICA(53, "1.2 billones"),
-    EUROPA(46, "1.1 billones"),
-    ASIA(44, "1.9 billones"),
-    AMERICA(34, "150.2 billones"),
-    OCEANIA(14, "1.2 billones");
+    AFRICA(53,"1.2 Billones"),
+    EUROPA(46,"1.1 Billones"),
+    AMERICA(34, "1.3 Millones"),
+    ASIA(44, "1.9 Millones"),
+    OCEANIA(14, "150000");
     
     private final int paises;
-    private String habitantes;
-    Continentes(int paises, String habitantes) {
-        this.paises = paises;
-        this.habitantes = habitantes;
-    }
-    
-    // metodo get
+    private final String habitantes;
 
-    public int getPaises(){
+    // Necesitan un getter por estar encapsulados
+    public int getPaises() {
         return this.paises;
     }
-    
-    public String getHabitantes(){
+
+    public String getHabitantes() {
         return this.habitantes;
     }
     
     
+    // Esta asociado a los elementos de la enumeración, esta encapsulado! 
+    // Constructor
+    Continentes (int paises, String habitantes) {
+        this.paises = paises;
+        this.habitantes = habitantes;
+    }
 }

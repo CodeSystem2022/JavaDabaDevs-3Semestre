@@ -1,24 +1,24 @@
 package test;
 
 public class TestArgumentosVariables {
+
     public static void main(String[] args) {
-        imprimirNumeros(3,4,5);//llamamos al metodo, se van agregando los argumentos
-        imprimirNumeros(1,2);
-        variosParametros("Juan","Perez",7,8,9);
+        imprimirNumeros(1, 2, 3, 4, 5);
+        imprimirNumeros(9, 8, 7, 6, 5);
+        variosParametros("Maxi", 3, 2, 1);
+
     }
-    //si tenemos varios parametros, el parametro variable lo ponemos al final (int ...)
-    private static void variosParametros(String nombre,String apellido, int ...numeros){
-        System.out.println("Nombre: "+nombre+", Apellido: "+apellido);
+    // Argumentos variables con otros datos
+    // Los otros datos siempre van al principio, los variables al final
+    private static void variosParametros(String nombre, int... numeros) {
+        System.out.println("Nombre: " + nombre);
         imprimirNumeros(numeros);
     }
-   
-    //1- Creamos el metodo imprimirNumeros
-    private static void imprimirNumeros(int ...numeros){ //int + ... vamos a recibir argumentos varables. 
-        //los ... Indica cantidad indefinida de elementos
-        for(int i = 0; i< numeros.length;i++){ // for + TAB (arma nuestro ciclo)
-            System.out.println("Elementos: "+numeros[i]);
+
+    // Argumentos variables
+    private static void imprimirNumeros(int... numeros) {
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println("Elemento: " + numeros[i]);
         }
     }
-    
 }
-
