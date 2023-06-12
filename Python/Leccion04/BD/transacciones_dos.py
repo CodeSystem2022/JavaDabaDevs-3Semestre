@@ -8,12 +8,17 @@ conexion = bd.connect(
     database='test_bd'
 )
 try:
-    # conexion.autocommit = False  # Esto directamente no deberia estar
+    conexion.autocommit = False  # Esto directamente no debería estar, inicia la transacción
     cursor = conexion.cursor()
     sentencia = "INSERT INTO persona(nombre, apellido, email)VALUES(%s, %s, %s)"
-    valores = ("Marcos", "Rojo", "rojomar@gmail.com")
+    valores = ("Jorge", "Prol", "jprol@gmail.com")
     cursor.execute(sentencia, valores)
-    conexion.commit()  # Hacemos el commit manualmente
+
+    sentencia = 'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
+    valores = ('Juan Carlos', 'Perez', 'jcperez@mail.com', 1)
+    cursor.execute(sentencia, valores)
+
+    conexion.commit()  # Hacemos el commit manualmente, se cierra la transacción
     print("Termina la transaccion")
 except Exception as e:
     conexion.rollback()
