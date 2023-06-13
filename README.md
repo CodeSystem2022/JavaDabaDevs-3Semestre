@@ -17,7 +17,7 @@ Encargados de presentar trabajos utilizando al metodo scrum :
 | :lock: Abril semana 2 | *Augusto Casado* |
 | :lock: Abril semana 3 | *David Esteche* |
 | :lock: Abril semana 4 | *Johana Martínez* |
-| :lock: Mayo semana 5 | *Marcelo Boujon* |
+| :lock: Mayo semana 5 | *Marcelo Boujón* |
 | :lock: Mayo semana 6 | *Marita Campos* |
 | :lock: Mayo semana 7 | *Sofía Zelay* |
 | :lock: Mayo semana 8 | *Araceli Pintos* |
@@ -47,4 +47,4 @@ Integrantes Tercer Semestre :
 
 :heavy_check_mark: Margarita Luisa Campos
 
-:heavy_check_mark: Marcelo Alejandro Boujon
+:heavy_check_mark: Marcelo Alejandro Boujón
