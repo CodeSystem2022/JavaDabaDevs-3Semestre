@@ -1,4 +1,4 @@
-import psycopg2 ad bd
+import psycopg2 as bd #Se corrige error de importación
 # psycopg2 as db otra manera de importar del psycopg2
 from logger_base import log
 
@@ -7,7 +7,7 @@ class Conexion:
     _USERNAME = 'postgres'
     _PASSWORD = 'admin'
     _DB_PORT = '5432'
-    __HOST = '127.0.0.1'
+    _HOST = '127.0.0.1' #Se corrige __HOST a _HOST
     _conexion = None
     _cursor = None
 
@@ -21,13 +21,12 @@ class Conexion:
                                            port=cls._DB_PORT,
                                            database=cls._DATABASE)
                 log.debug(f'Conexión Exitosa: {cls._conexion}')
-                return cls._conexion
+                return cls.conexion #Se corrige el nombre de la variable conexion
             except Exception as e:
                 log.error(f'Ocurrió un error: {e}')
                 sys.exit()
         else:
             return cls. conexion
-
 
     @classmethod
     def obtenerCursor(cls):
@@ -42,6 +41,6 @@ class Conexion:
         else:
             return cls._cursor
 
-if _name__ == '__main__':
+if __name__ == '__main__': #Corrección de la comprobación __name__
     Conexion.obtenerConexion()
     Conexion.obtenerCursor()
