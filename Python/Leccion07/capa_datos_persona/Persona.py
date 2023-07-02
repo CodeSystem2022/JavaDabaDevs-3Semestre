@@ -1,30 +1,30 @@
-
+from logger_base import log
 
 
 class Persona:
+    # Método Dunder Init
     def __init__(self, id_persona=None, nombre=None, apellido=None, email=None):
         self._id_persona = id_persona
         self._nombre = nombre
         self._apellido = apellido
         self._email = email
 
+    # Método Dunder Str
     def __str__(self):
         return f'''
             Id Persona: {self._id_persona},
-            Nombre: {self._nombre},
-            Apellido: {self._apellido},
+            Nombre: {self._nombre},Apellido: {self._apellido},
             Email: {self._email}
         '''
-    # Metodos Getters and Setters
-#Getter
+
+    # Métodos Getters and Setters
     @property
     def id_persona(self):
         return self._id_persona
-#Setter
+
     @id_persona.setter
     def id_persona(self, id_persona):
         self._id_persona = id_persona
-
 
     @property
     def nombre(self):
@@ -50,12 +50,11 @@ class Persona:
     def email(self, email):
         self._email = email
 
-#Comprobacion si estamos ejecutando esta clase
-#constructor
+
 if __name__ == '__main__':
-    persona1 = Persona(1,'Juan','Perez','jperez@gmail.com')
+    persona1 = Persona(1, 'Juan', 'Perez', 'jperez@gmail.com')
     log.debug(persona1)
-    persona2 = Persona('Jose','Lopez','ljose@gmail.com')
+    persona2 = Persona(nombre='Jose', apellido='Lerez', email='ljose@gmail.com')
     log.debug(persona2)
-    persona1 = Persona(id_persona = 1)
+    persona1 = Persona(id_persona=1)
     log.debug(persona1)
